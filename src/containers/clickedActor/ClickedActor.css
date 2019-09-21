@@ -1,0 +1,83 @@
+.clickedActor {
+  height: 80rem;
+position: relative;
+   display: grid;
+}
+
+@media only screen and (max-width: 832px) {
+  .clickedActor {
+  margin-bottom: 40rem;
+  }
+}
+
+.mov {
+  grid-gap: 4rem;
+  padding: 1rem;
+display: grid;
+grid-template-rows: repeat(4, 1fr);
+margin-left: -2.4rem;
+margin-top: 25rem;
+position: relative;
+grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+margin-top: 38rem;
+}
+
+@media only screen and (max-width: 1070px) {
+  .mov {
+padding-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 986px) {
+  .mov {
+padding-bottom: 16rem;
+  }
+}
+
+@media only screen and (max-width: 832px) {
+  .mov {
+    margin-left: -1rem;
+padding-bottom: 16rem;
+margin-top: 25rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .mov {
+margin-left: 6rem;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .mov {
+margin-left: 4rem;
+  }
+}
+
+
+@media only screen and (max-width: 370px) {
+  .mov {
+margin-left: -1rem;
+  }
+}
+
+
+.card {
+  height: 17rem;
+
+ cursor: pointer;
+ border: 1px solid #7e796a;
+ padding: .5rem;
+position: relative;
+}
+
+
+.movDetHead {
+  position: absolute;
+ margin-top: 18rem;
+  text-align: center;
+  margin-left: -.7rem;
+  color: #fff;
+  width: 100%;
+}
+

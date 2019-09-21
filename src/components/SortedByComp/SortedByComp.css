@@ -1,0 +1,261 @@
+@font-face {
+    font-family: Para;
+    src: url(../../TuesdayNight/Codedemo1.otf) format('opentype')
+  }
+
+.headering {
+    position: absolute;
+    right: 150%;
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 6.5px;
+    margin-top: 5rem;
+};
+
+.headering::after {
+    content: "";
+    position: absolute;
+    top: 160%;
+    left: 0;
+    background-color: black;
+    height: 0;
+    width: 95%;
+    border-bottom: 2px solid #fff;
+}
+
+
+.SortedByComp {
+    grid-gap: 0.6rem;
+    padding: 1rem;
+    position: relative;
+top: 50%;
+}
+
+
+
+.SortedByDetail {
+    height: 22rem;
+    display: flex;
+    color: #fff;
+   cursor: pointer;
+   padding: 3rem;
+     transition: all .4s;
+     box-shadow: 2px 3px 4px #000;
+     opacity: 0.6;
+     background: linear-gradient(
+       to bottom,
+       rgba(0,0,0, 0),
+       rgba(0,0,0, .7)
+     );
+filter: brightness(80%);
+position: relative;
+}
+
+@media only screen and (max-width: 510px) {
+    .SortedByDetail {
+        height: 18rem;
+        margin-left: -2rem;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .SortedByDetail {
+        left: -6.5rem;
+    }
+}
+
+
+.sale {
+    color: #fff;
+    padding: 0.3rem 1rem;
+    background-color: red;
+    position: absolute;
+    margin-top: -28rem;
+    font-weight: 600;
+    transform: scale(.9);
+    transition: all .2s;
+}
+
+
+@media only screen and (max-width: 510px) {
+    .sale {
+      margin-top: -24rem;
+      margin-left: -2rem;
+    }
+}
+
+
+@media only screen and (max-width: 420px) {
+    .sale {
+
+      margin-left: -8.5rem;
+    }
+}
+
+.SortedByDetail:hover ~ .sale {
+    transform: scale(.95);
+}
+
+.SortedByDetail:hover {
+    filter: brightness(120%);
+    transform: scale(1.01);
+    background-image: linear-gradient(to right bottom, #000);
+    }
+
+    @media only screen and (max-width: 600px) {
+        .SortedByDetail {
+            filter: brightness(120%);
+            transform: scale(1.01);
+            background-image: linear-gradient(to right bottom, #000);
+        }
+    }
+    .spanc {
+        margin-left: -1.3rem;
+        font-size: 1.5rem;
+        background-color: rgba(0, 0, 0, 0.582);
+        padding: 2rem 4.7rem;
+        text-align: center;
+        margin-top: 3.2rem;
+    }
+
+    @media only screen and (max-width: 510px) {
+        .spanc {
+         margin-left: -1rem;
+         padding: 1.7rem 5.7rem;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .spanc {
+         font-size: 1.2rem;
+        }
+    }
+
+
+    .sortedHeaderc {
+        opacity: 0;
+        color: #fff;
+
+        margin-top: -6rem;
+        transition: all .5s;
+        width: 97%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: .5rem;
+        overflow: hidden;
+        font-family: Para;
+        letter-spacing: 2px;
+    }
+    
+@media only screen and (max-width: 600px) {
+    .sortedHeaderc {
+        opacity: 1;
+        margin-top: -9rem;
+        
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .sortedHeaderc {
+  left: -1.3rem;
+  margin-top: -10.4rem;
+  width: 105%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .sortedHeaderc {
+   left: -8rem;
+width: 105%;
+    }
+}
+
+
+
+
+
+    .SortedByDetail:hover ~ .sortedHeaderc {
+        opacity: 1;
+        margin-top: -10.6rem;
+    }
+
+    .SortedByDetail:hover .spanc {
+        opacity: 1;
+    }
+
+
+.realicon {
+    color: #000;
+  margin-left: 4rem;
+  margin-top: 9rem;
+  font-size: 4.4rem;
+  transition: all .4s;
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 752px) {
+    .realicon {
+        margin-left: 8rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .realicon {
+        margin-left: 4rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .realicon {
+        margin-left: 7rem;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .realicon {
+        margin-left: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .realicon {
+        margin-left: 4.5rem;
+        margin-top: 7rem;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .realicon {
+        margin-left: 3rem;
+    }
+}
+
+
+.sale {
+color: #fff;
+text-transform: initial;
+font-family: 'Arvo', serif;
+letter-spacing: 1px;
+}
+
+
+
+.fullrating {
+    display: flex;
+    width: 100%;
+    margin-left: 5rem;
+    text-align: center;
+}
+
+.star {
+    font-size: 1.3rem;
+}
+
+.rating {
+margin-top: .3rem;
+font-weight: 400;
+}

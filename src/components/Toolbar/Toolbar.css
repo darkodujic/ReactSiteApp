@@ -1,0 +1,1048 @@
+.Nav {
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+}
+
+.social {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .Nav {
+    background-color: rgba(0, 0, 0, 0.897);
+    height: 100vh;
+transform: translate(-100rem);
+   right: 0rem;
+overflow: hidden;
+width: 100%;
+z-index: 15000;
+transition: transform .6s;
+opacity: 0;
+top: 0;
+position: fixed;
+  }
+
+
+}
+
+.active {
+  opacity: 1;
+  transform: translate(0);
+}
+
+.close {
+  transform: translate(-100rem);
+}
+
+.Uli {
+    color: red;
+    list-style: none;
+    display: flex;
+    margin-top: 5.5em;
+    margin-right: 27rem;
+
+}
+
+
+
+@media only screen and (max-width: 1340px) {
+    .Uli {
+      margin-right: 21rem;
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+    .Uli {
+      margin-right: 18rem;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .Uli {
+      margin-right: 15rem;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    .Uli {
+      margin-right: 13rem;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .Uli {
+      margin-right: 9rem;
+    }
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    .Uli {
+      display: flex;
+      flex-direction: column;
+
+    }
+  }
+
+.dare {
+
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fff;
+  letter-spacing: 1.5px;
+  transition: all .2s;
+  margin-left: 17.2rem;
+  position: absolute;
+  top: 9.5rem;
+  background-color: red;
+  padding: .7rem 2rem;
+  border-radius: 4px;
+  transition: all .2s;
+  animation: changeDirection 1s ease-in-out;
+  font-family: Para;
+  text-decoration: none;
+}
+
+@keyframes changeDirection {
+  from {
+    opacity: 0;
+    transform: translateX(-20rem)
+  }
+
+  to {
+    opacity: 1;
+transform: translateX(0);
+  }
+}
+
+.dare:hover {
+  transform: translateY(-.2rem);
+}
+@media only screen and (max-width: 1200px) {
+  .dare {
+  margin-left: 20rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .dare {
+    margin-left: 1.4rem;
+    font-size: 1.8rem;
+    top: 42rem;
+  }
+
+  .dare:hover {
+    color: rgb(233, 232, 232);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .dare {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  }
+
+}
+
+
+@media only screen and (max-width: 440px) {
+  .dare {
+  margin-top: -1rem;
+  }
+
+}
+
+@media only screen and (max-width: 327px) {
+  .dare {
+margin-left: .7rem;
+  }
+}
+.icon {
+  display: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .icon {
+    position: absolute;
+    color: red;
+    font-size: 4rem;
+    right: 2rem;
+    top: 2rem;
+    display: inline-block;
+    cursor: pointer;
+
+  }
+}
+
+
+@font-face {
+  font-family: Para;
+  src: url(../../TuesdayNight/Rustico\ -\ V2/ADAM.otf) format('opentype')
+}
+
+@font-face {
+  font-family: Promesh;
+  src: url(../../TuesdayNight/Promesh.ttf) format("truetype");
+}
+
+.Li {
+   margin-right: 4.5rem;
+   text-transform: uppercase;
+   cursor: pointer;
+   color: #fff;
+   letter-spacing: 2px;
+   transition: all .2s;
+   font-family: Para;
+   text-decoration: none;
+   font-weight: 200;
+}
+
+.Li:hover {
+  color: rgb(228, 228, 228);
+}
+
+  
+@media only screen and (max-width: 700px) {
+    .Li {
+
+      position: relative;
+      font-size: 1.8rem;
+      padding-top: 3rem;
+      top: 12rem;
+      left: -2rem;
+    }
+
+    .Li:hover {
+      color: rgb(233, 232, 232);
+    }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .Li {
+    
+    font-size: 2rem;
+    }
+
+  }
+
+  
+  @media only screen and (max-width: 440px) {
+    .Li {
+
+   font-size: 1.7rem;
+
+
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+    .Li {
+  
+ width: 130%;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 327px) {
+    .Li {
+  
+ margin-left: -1rem;
+    }
+  }
+  @keyframes navLinks {
+    from {
+  opacity: 0;
+  transform: translateX(-50%);
+    }
+    to {
+  opacity: 1;
+  transform: translateX(0);
+    }
+  }
+  
+
+
+.iconn {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+
+  .sideicons {
+    display: flex;
+    position: absolute;
+    bottom: 5rem;
+    font-size: 2rem;
+  }
+
+  .iconn {
+    display: inline-block;
+    position: relative;
+    padding: 2rem;
+    left: 10rem;
+    color: #fff;
+    z-index: 5000;
+  }
+}
+
+
+@media only screen and (max-width: 470px) {
+  .sideicons {
+   position: absolute;
+   left: -3rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .sideicons {
+   position: absolute;
+   left: -6rem;
+  }
+}
+
+@media only screen and (max-width: 386px) {
+  .sideicons {
+   position: absolute;
+   left: -8rem;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 353px) {
+  .sideicons {
+   position: absolute;
+   left: -9.5rem;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+  .iconn {
+    display: inline-block;
+    position: relative;
+    padding: 2rem;
+    left: 10rem;
+  }
+}
+  .welcomeIcon {
+    display: none;
+  }
+
+
+
+@media only screen and (max-width: 700px) {
+  .welcomeIcon {
+    position: absolute;
+    top: 8rem;
+    font-size: 5rem;
+    color: red;
+    left: 21rem;
+    display: inline-block;
+  }
+}
+
+
+
+@media only screen and (max-width: 464px) {
+  .welcomeIcon {
+
+    font-size: 3.5rem;
+    left: 18rem;
+  }
+}
+
+@media only screen and (max-width: 398px) {
+  .welcomeIcon {
+
+    font-size: 3.5rem;
+    left: 16rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .welcomeIcon {
+
+    font-size: 3.5rem;
+    left: 13rem;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .welcomeIcon {
+
+    font-size: 3.5rem;
+    left: 10.5rem;
+  }
+}
+
+
+
+
+
+
+.searchBox {
+    position: absolute;
+    top: 14rem;
+    left: 43rem;
+    transform:  translate(-50%,50%);
+    background: #2c2d2f;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+z-index: 4000;
+}
+
+@media only screen and (max-width: 1291px) {
+  .searchBox {
+    left: 38rem;
+  }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .searchBox {
+      left: 43rem
+    }
+    }
+
+    @media only screen and (max-width: 1140px) {
+      .searchBox {
+        left: 40rem;
+      }
+      }
+
+
+@media only screen and (max-width: 1100px) {
+.searchBox {
+  left: 37rem
+}
+}
+
+@media only screen and (max-width: 1000px) {
+  .searchBox {
+    left: 35rem
+  }
+  }
+
+  @media only screen and (max-width: 940px) {
+    .searchBox {
+      left: 33rem
+    }
+    }
+  
+
+  @media only screen and (max-width: 830px) {
+    .searchBox {
+      left: 29rem
+    }
+    }
+
+    @media only screen and (max-width: 708px) {
+      .searchBox {
+        left: 26rem
+      }
+      }
+
+      @media only screen and (max-width: 670px) {
+        .searchBox {
+          left: 24rem;
+         
+        }
+        }
+
+
+        @media only screen and (max-width: 630px) {
+          .searchBox {
+            left: 23rem
+          }
+          }
+    
+  
+
+      @media only screen and (max-width: 600px) {
+        .searchBox {
+          height: 30px;
+          left: 28rem;
+        }
+        }
+
+        @media only screen and (max-width: 575px) {
+          .searchBox {
+            left: 26rem
+          }
+          }
+    
+        @media only screen and (max-width: 530px) {
+          .searchBox {
+            left: 23rem;
+          }
+          }
+
+          @media only screen and (max-width: 470px) {
+            .searchBox {
+              left: 20rem;
+            }
+            }
+
+            @media only screen and (max-width: 410px) {
+              .searchBox {
+                left: 17.5rem;
+              }
+              }
+
+              @media only screen and (max-width: 368px) {
+                .searchBox {
+                  left: 15rem;
+                }
+                }
+
+                @media only screen and (max-width: 311px) {
+                  .searchBox {
+                    left: 14rem;
+
+                  }
+                  }
+            
+
+.searchBox:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+@media only screen and (max-width: 311px) {
+  .searchBox:hover > .searchInput  {
+    width: 220px;
+  }
+  }
+
+.searchBox:hover > .searchButton {
+  background: white;
+  color : #2d2f31;
+}
+
+.searchButton {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2b2e31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    z-index: 24000;
+}
+
+@media only screen and (max-width: 600px) {
+  .searchButton {
+    height: 30px;
+    width: 30px;
+    background: white;
+    color : #2d2f31;
+    margin-top: -3.5rem;
+  }
+  }
+
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .searchInput {
+    width: 240px;
+    padding: 0px 8px;
+  }
+  }
+
+  
+@media only screen and (max-width: 400px) {
+  .searchInput {
+    width: 200px;
+    padding: 0px 8px;
+  }
+  }
+
+
+.material {
+    font-size: 1.2rem;
+}
+
+
+.Type {
+    background-color: rgba(31, 31, 31, 0.959);
+  width: 17%;
+  margin-top: 2rem;
+    margin-left: 34.5rem;
+    height: 23rem;
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s;
+    transform: translateY(-30rem);
+    border: 19px;
+    z-index: 1500000;
+    position: relative;
+}
+
+
+.Type:hover {
+  opacity: 1;
+visibility: visible;
+transform: translateY(0);
+}
+
+@media only screen and (max-width: 1200px) {
+  .Type {
+margin-left: 36rem;
+  }
+}
+
+@media only screen and (max-width: 1087px) {
+  .Type {
+margin-left: 34rem;
+width: 19%;
+  }
+}
+
+@media only screen and (max-width: 965px) {
+  .Type {
+margin-left: 36rem;
+width: 19.5%;
+  }
+}
+
+
+@media only screen and (max-width: 901px) {
+  .Type {
+margin-left: 36rem;
+width: 19.5%;
+  }
+}
+
+@media only screen and (max-width: 856px) {
+  .Type {
+margin-left: 38rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Type {
+width: 20.5%;
+margin-left: 36rem;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .Type {
+width: 22%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .Type {
+width: 40%;
+  }
+}
+
+ul {
+    list-style: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .Type {
+background-color: transparent;
+transform: translateX(-20rem)
+  }
+  }
+
+
+
+.Typeof {
+    padding: 1.27rem 3rem;
+    margin-left: -2.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+  transition: all .4s;
+  text-align: center;
+  width: 60%;
+  margin-top: -1rem;
+  font-size: .9rem;
+  display: flex;
+  transition: all .4s;
+  font-family: Para;
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .Typeof {
+margin-left: -3.1rem;
+  }
+}
+
+
+  @media only screen and (max-width: 700px) {
+    .Typeof {
+      font-size: 1.5rem;
+      position: relative;
+      top: -10rem;
+      left: -10rem;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .Typeof {
+      font-size: 1.5rem;
+      position: relative;
+      top: -13rem;
+      left: -13rem;
+    }
+  }
+
+  @media only screen and (max-width: 430px) {
+    .Typeof {
+      font-size: 1.4rem;
+      position: relative;
+      top: -11rem;
+      left: -18rem;
+    }
+  }
+
+  @media only screen and (max-width: 380px) {
+    .Typeof {
+      font-size: 1.2rem;
+      position: relative;
+      top: -13rem;
+      left: -18rem;
+      padding-bottom: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 327px) {
+    .Typeof {
+left: -21.5rem;
+    }
+  }
+
+.Typeof:hover {
+    background-color: black;
+    color: red;
+    transform: translateY(-.3rem);
+}
+.Zanr {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Zanrr {
+
+    text-transform: uppercase;
+    margin-right: 3rem;
+    cursor: pointer;
+    color: #fff;
+    letter-spacing: 1.5px;
+    transition: all .2s;
+    margin-right: 2rem;
+    width: 10%;
+    padding: 1rem;
+    position: absolute;
+    right: 17.7rem;
+    top: 4.5rem;
+    font-family: Para;
+}
+
+
+.Zanrr:hover + .Type {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+
+
+@media only screen and (max-width: 1340px) {
+    .Zanrr {
+     position: absolute;
+     right: 6.5rem;
+      top: 4.5rem;
+      width: 20%;
+    }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .Zanrr {
+     
+    right: 5rem;
+    }
+  }
+
+  
+  @media only screen and (max-width: 1000px) {
+    .Zanrr {
+     
+    right: 2rem;
+    }
+  }
+
+
+  
+
+  @media only screen and (max-width: 855px) {
+    .Zanrr {
+      right: 0;
+    }
+  }
+
+
+  @media only screen and (max-width: 758px) {
+    .Zanrr {
+right: -2rem;
+    }
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    .Zanrr {
+   position: relative;
+   font-size: 1.8rem;
+   width: 60%;
+   top: 13rem;
+   left: 0.5rem;
+
+
+    }
+
+    .Zanrr:hover .Type:disabled {
+      opacity: 0;
+      visibility: hidden;
+    }
+    
+    .Zanrr:hover {
+      color: rgb(233, 232, 232);
+    }
+
+
+
+
+    .Zanrr::after {
+      position: absolute;
+      content: "";
+      top: -19rem;
+      left: 2rem;
+      height: 5px;
+      width: 11%;
+      background-color: #fff;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .Zanrr {
+    
+    font-size: 2rem;
+  
+    }
+
+  }
+
+  @media only screen and (max-width: 440px) {
+    .Zanrr {
+   position: relative;
+   font-size: 1.7rem;
+   width: 60%;
+   top: 13rem;
+   left: 0.5rem;
+z-index: 10000000;
+    }
+  }
+
+
+  @media only screen and (max-width: 327px) {
+    .Zanrr {
+  
+left: -.5rem;
+    }
+  }
+
+
+
+li {
+    padding: 1rem 0rem;
+}
+
+.typeClosed {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0rem);
+}
+
+
+
+.searchRecomend {
+    background-color: rgba(255, 255, 255, 0.829);
+    position: relative;
+    left: 78%;
+    top: 20rem;
+    z-index: 30000;
+    width: 20rem;
+    height: 50rem;
+}
+
+
+
+.maki {
+    
+
+    position: absolute;
+    left: 35%;
+    top: 20rem;
+    z-index: 30000;
+
+}
+
+
+.bars {
+position: relative;
+top: 5.5rem;
+left: 25rem;
+visibility: hidden;
+cursor: pointer;
+padding: 2rem;
+
+
+}
+@media only screen and (max-width: 700px) {
+    .bars {
+    visibility: visible;
+    left: 22rem;
+    }
+
+  }
+
+  @media only screen and (max-width: 650px) {
+    .bars {
+    
+    left: 21rem;
+    }
+
+  }
+
+  @media only screen and (max-width: 588px) {
+    .bars {
+    
+    left: 22rem;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 520px) {
+    .bars {
+    
+    left: 20rem;
+    }
+
+  }
+
+
+
+  @media only screen and (max-width: 474px) {
+    .bars {
+    left: 16rem;
+    }
+}
+
+
+@media only screen and (max-width: 430px) {
+  .bars {
+  left: 14rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .bars {
+  left: 10rem;
+  }
+}
+
+
+@media only screen and (max-width: 325px) {
+  .bars {
+  left: 9rem;
+  }
+}
+
+
+
+
+
+
+.ham,
+.ham::before,
+.ham::after {
+content: "";
+    height: 1px;
+    width: 25px;
+    background-color: red;
+  display: inline-block;
+  position: absolute;
+  transition: all .4s;
+}
+
+.ham::after {
+    margin-top: -.7rem;
+}
+
+.ham::before {
+    margin-top: .7rem;
+}
+
+.toggle .ham {
+  transform: rotate(-45deg) translate(-5px, 2px);
+  height: 2px;
+  width: 30px;
+}
+
+.toggle .ham::before {
+opacity: 0;
+}
+
+.toggle .ham::after {
+transform: rotate(85deg) translate(8.5px, 0.5px);
+height: 2px;
+width: 30px;
+}
+
+
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}

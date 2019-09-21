@@ -1,0 +1,20 @@
+.Buton {
+    width: 50%;
+    border: none;
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+    padding: .7rem 1.1rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Buton {
+     width: 70%;
+     margin-top: 1rem;
+     margin-left: 3rem;
+    }
+  }

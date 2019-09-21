@@ -1,0 +1,9 @@
+.Login {
+    height: 100vh;
+    position: relative;
+    background-color: #e4e4e4;
+    background-size: cover;
+    background-position: center;
+    opacity: 3rem;
+    margin: 0 -4rem;
+}

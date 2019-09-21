@@ -1,0 +1,289 @@
+
+.Trailer {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    overflow: hidden;
+    margin-top: 7rem;
+    margin-right: 6rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .Trailer {
+   opacity: 0;
+   visibility: hidden;
+   display: none;
+    }
+}
+.Image {
+    transition: all .4s;
+   height: 32rem;
+    width: 100%;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    filter: brightness(60%);
+    border: 3px solid rgb(66, 66, 66);
+    
+}
+.Image:hover {
+filter: brightness(80%) grayscale(10%);
+background-image: linear-gradient(to right bottom, #000);
+}
+
+
+@media only screen and (max-width: 750px) {
+    .Image {
+        filter: brightness(80%) grayscale(10%);
+        background-image: linear-gradient(to right bottom, #000);
+    }
+}
+
+
+.renderArrow {
+ 
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 2.5rem;
+opacity: 0;
+transition: all .5s;
+color: #fff;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    .renderArrow {
+       opacity: 1;
+    }
+}
+
+
+
+.Trailerr {
+    height: 29.3rem;
+    width: 50rem;
+    grid-row: 1 / 5;
+    grid-column: 3 / 6;
+    margin-left: 5rem;
+    transition: all .6s;
+    margin-left: -2rem;
+
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 10px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .Trailerr {
+        height: 28rem;
+      width: 45rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .Trailerr {
+        height: 28rem;
+        width: 40rem;
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    .Trailerr {
+        height: 26rem;
+        width: 38rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .Trailerr {
+        height: 24rem;
+        width: 36rem;
+    }
+}
+
+@media only screen and (max-width: 757px) {
+    .Trailerr {
+        height: 22rem;
+        width: 34rem;
+    }
+}
+
+
+@media only screen and (max-width: 720px) {
+    .Trailerr {
+        height: 22rem;
+        width: 32rem;
+    }
+}
+
+@media only screen and (max-width: 695px) {
+    .Trailerr {
+        height: 20rem;
+        width: 29rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .Trailerr {
+        width: 26rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Trailerr {
+        width: 28rem;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .Trailerr {
+        width: 26rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .Trailerr {
+     width: 23rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .Trailerr {
+       width: 21rem;
+       height: 18rem;
+     
+    }
+}
+
+.Trailerr:hover button {
+    opacity: 1;
+
+}
+
+.One {
+    position: relative;
+}
+@font-face {
+    font-family: Para;
+    src: url(../../TuesdayNight/Codedemo1.otf) format('opentype')
+  }
+  
+.title {
+    color: red;
+    font-size: 1.5rem;
+    transform: translateY(3rem) translateX(17rem);
+    transition: all .6s;
+    padding: 1rem;
+    margin-left: -24rem;
+    z-index: 15000;
+    display: flex;
+    align-items: center;
+    font-family: Para;
+    letter-spacing: 4px;
+    position: relative;
+}
+
+@media only screen and (max-width: 1085px) {
+    .title {
+     margin-top: -.2rem;
+     margin-left: -28rem;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .title {
+ 
+     margin-left: -34rem;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 835px) {
+    .title {
+     margin-top: -2.4rem;
+     margin-left: -34rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .title {
+     margin-top: -4.4rem;
+     margin-left: -42rem;
+     font-style: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 753px) {
+    .title {
+     margin-top: -6.7rem;
+    }
+}
+@media only screen and (max-width: 693px) {
+    .title {
+     margin-top: -8.7rem;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .title {
+     
+     margin-left: -43rem;
+    }
+}
+
+.titlespan {
+    margin-left: 22rem;
+    font-weight: 400;
+}
+
+
+
+
+
+.One:hover h3 {
+    transform: translateY(-7rem) translateX(17rem);
+    background-color: rgba(0, 0, 0, 0.794);
+ z-index: 15000;
+}
+
+@media only screen and (max-width: 750px) {
+    .title {
+        transform: translateY(-7.3rem) translateX(21rem);
+        background-color: rgba(0, 0, 0, 0.774);
+    }
+}
+
+
+.Two:hover h3 {
+    transform: translateY(-9.3rem) translateX(17rem);
+    background-color: rgba(0, 0, 0, 0.767);
+ 
+}
+
+
+.Three:hover h3 {
+    transform: translateY(-9.3rem) translateX(21rem);
+    background-color: rgba(0, 0, 0, 0.753);
+ 
+}
+
+
+.loader {
+margin-left: 36rem;
+margin-top: 10rem;
+}
+
+.dare {
+    font-size: 3.70rem;
+    margin: 0 -1rem;
+}
+

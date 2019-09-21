@@ -1,0 +1,21 @@
+.movie {
+  height: 100%;
+    margin-bottom: 16rem;
+    position: relative;
+
+}
+
+
+.correct {
+  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+    display: grid;
+    position: relative;
+  }
+
+
+.loader {
+  position: absolute;
+  left: 44%;
+  z-index: 20000;
+
+}

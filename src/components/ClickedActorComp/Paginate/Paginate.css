@@ -1,0 +1,159 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@font-face {
+    font-family: Para;
+    src: url(../../../TuesdayNight/Rustico\ -\ V2/ADAM.otf) format('opentype')
+  }
+
+.paginationcontainer {
+margin-top: 0rem;
+    text-align: center;
+    transition: all .4s;
+	margin-right: 7rem;
+	margin-bottom: 7rem;
+	font-family: Para;
+}
+
+@media only screen and (max-width: 815px) {
+	.paginationcontainer {
+		margin-top: -4rem;
+	font-size: .8rem;
+	}
+  }
+
+  @media only screen and (max-width: 708px) {
+	.paginationcontainer {
+	font-size: .7rem;
+	}
+  }
+
+  
+  @media only screen and (max-width: 663px) {
+	.paginationcontainer {
+	font-size: .6rem;
+	}
+  }
+
+  @media only screen and (max-width: 525px) {
+	.paginationcontainer {
+	font-size: .5rem;
+	}
+  }
+
+
+  @media only screen and (max-width: 471px) {
+	.paginationcontainer {
+	font-size: .5rem;
+	width: 105%;
+	margin-left: -4rem;
+	}
+  }
+
+  @media only screen and (max-width: 393px) {
+	.paginationcontainer {
+	font-size: .5rem;
+	width: 120%;
+	margin-left: -6rem;
+	position: relative;
+	top: -5rem;
+	}
+  }
+
+
+
+.paginationitem {
+	list-style-type: none;
+	display: inline-block;
+	border-right: 1px solid #d7dadb;
+    transition: all .4s;
+margin-top: -2rem;
+	transform: scale(1) rotate(19deg) translateX(0px) translateY(0px) skewX(-10deg) skewY(-20deg);
+}
+
+@media only screen and (max-width: 471px) {
+	.paginationitem {
+	margin: 1rem;
+	}
+  }
+
+
+
+.paginationitem:hover {
+    background-color: #fa4248;
+    border-right: 1px solid #fff;
+}
+
+.paginatonlink:hover {
+    color: #fff;
+}
+.paginationlink:visited {
+	background-color: #fa4248;
+
+}
+.paginationitem.selected {
+	background-color: #fd3138;
+}
+.paginationitem.first-number {
+  border-left: 1px solid #d7dadb;
+}
+
+.paginationlink {
+	padding: 1.1em 1.6em;
+	display: inline-block;
+	text-decoration: none;
+	color: #8b969c;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+
+	transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(20deg) skewY(0deg);
+}
+
+.paginationitem--wide {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.paginationitem--wide.first {
+	margin: 0 1em 0 0;
+}
+
+.paginationitem--wide.last {
+	margin: 0 0 0 1em;
+}
+
+.paginationlink--wide {
+	text-decoration: none;
+	color: #8b969c;
+	padding: 1.1em 1.6em;
+}
+
+.paginationlink--wide:hover {
+	color: #fa4248;
+}
+
+.paginationlink--wide.first:before,
+.paginationlink--wide.last:after {
+  font-family: 'entypo';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.paginationlink--wide.first::before {
+	content: "\E765";
+	margin-right: 0.5em;
+}
+
+.paginationlink--wide.last::after {
+	content: "\E766";
+	margin-left: 0.5em;
+}
+
+

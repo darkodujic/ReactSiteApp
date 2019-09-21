@@ -1,0 +1,177 @@
+.SortedBy {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15.8rem, 1fr));
+    margin-bottom: 33rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    height: 120vh;
+
+}
+ 
+
+@media only screen and (max-width: 1050px) {
+    .SortedBy {
+margin-bottom: 50rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 751px) {
+    .SortedBy {
+margin-bottom: 135rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .SortedBy {
+grid-gap: 3rem;
+margin-bottom: 144rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 512px) {
+    .SortedBy {
+margin-bottom: 115rem;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .SortedBy {
+position: relative;
+right: 1rem;
+    }
+}
+@media only screen and (max-width: 317px) {
+    .SortedBy {
+position: relative;
+right: 2.6rem;
+width: 30%;
+    }
+}
+@font-face {
+    font-family: Para;
+    src: url(../../TuesdayNight/Codedemo1.otf) format('opentype')
+  }
+
+.hed {
+    color: #fff;
+    position: absolute;
+    left: 38rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 7.8px;
+    margin-top: 7rem;
+    animation: change .6s ease-in .5s;
+    font-family: Para;
+}
+
+@keyframes change {
+    from {
+        opacity: 0;
+        transform: translateY(-20rem)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+    .hed {
+        left: 35rem;
+    }
+}
+
+
+@media only screen and (max-width: 1240px) {
+    .hed {
+        left: 32rem;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .hed {
+        left: 35rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .hed {
+        left: 32rem;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .hed {
+        left: 30rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .hed {
+        left: 27rem;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .hed {
+        left: 23rem;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    .hed {
+        left: 20rem;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .hed {
+        left: 16rem;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .hed {
+        left: 14rem;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .hed {
+        left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .hed {
+left: 4rem;
+    }
+}
+
+
+@media only screen and (max-width: 317px) {
+    .hed {
+left: 3rem;
+    }
+}
+.hed::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    background-color: #fff;
+    border-bottom: 2px solid #fff;
+    height: 0;
+    width: 60%;
+    margin-top: 2rem;
+}
+
+.pag {
+    position: absolute;
+}

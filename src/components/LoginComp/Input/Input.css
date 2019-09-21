@@ -1,0 +1,308 @@
+
+.LoginComp {
+    height: 40rem;
+    background-image: linear-gradient(to bottom, #eb3349    , #f45c43);
+    box-shadow: 1px 1.2px 5px #000;
+    width: 30rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+    width: 80%;
+    margin-left: 3rem;
+}
+
+
+
+.welcome {
+    position: absolute;
+    top: 8rem;
+    left: 12.8rem;
+}
+
+@media only screen and (max-width: 380px) {
+    .welcome {
+     left: 9rem;
+    }
+}
+
+.welcomeIcon {
+    font-size: 4rem;
+}
+
+.loginHeader {
+
+    position: absolute;
+    text-transform: uppercase;
+    color: #fff;
+    top: 0;
+    left: 10.8rem;
+    font-weight: 500;
+    font-size: 2.4rem;
+    letter-spacing: 2px;
+}
+
+
+
+input {
+    border: none;
+    background-color: transparent;
+    transform: scale(1.1);
+color: #fff;
+    transition: all .4s;
+    padding: .8rem 2rem;
+    font-size: 1.1rem;
+}
+
+
+input::placeholder {
+    color: rgb(226, 225, 225);
+    font-size: 1.04rem;
+    padding: 0 1rem;
+}
+
+
+
+input:focus::-moz-placeholder { color:transparent; }
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+
+.inputpass {
+    margin-bottom: 2rem;
+    transition: all .6s;
+}
+
+.inputemail {
+    margin-bottom: 2rem;
+    transition: all .6s;
+    }
+
+
+
+.loginIcon {
+    color: #fff;
+    position: absolute;
+    margin-top: .8rem;
+    font-size: 1.4rem;
+    margin-left: -1rem;
+    transition: all .4s;
+}
+
+.loginKey {
+    color: #fff;
+    position: absolute;
+    font-size: 1.4rem;
+    margin-top: 5.8rem;
+    margin-left: -1rem;
+    transition: all .4s;
+}
+
+
+
+
+.loginbtn {
+    position: absolute;
+    top: 74%;
+    left: 24.5%;
+    border: none;
+    background-color: transparent;
+    padding: 1.3rem 6.5rem;
+    border-radius: 100px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+    text-transform: uppercase;
+}
+
+.loginbtn::after {
+content: "";
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+opacity: 1;
+background-color: #fff;
+border-radius: 100px;
+transform: scale(1);
+transition: all .5s;
+z-index: -1;
+}
+
+
+.loginbtn:hover::after {
+    transform: scale(1.4);
+    opacity: 0;
+}
+
+.loginspan {
+    font-size: 1rem;
+    color: rgb(153, 150, 150);
+}
+.loader {
+    position: absolute;
+    z-index: 40000;
+    top: 50%;
+    left: 50%;
+}
+
+.inputfocus::before {
+    content: "";
+    position: absolute;
+    top: 45.5%;
+    left: 7%;
+    background-color: #fff;
+    height: 2px;
+    width: 0%;
+    transition: all .4s;
+  
+}
+
+
+@media only screen and (max-width: 450px) {
+    .inputfocus::before {
+        top: 47.5%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .inputfocus::before {
+        top: 53%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .inputfocus::before {
+        top: 56%;
+    }
+}
+
+
+.inputfocus::after {
+    content: "";
+    position: absolute;
+    top: 45.5%;
+    left: 7%;
+    background-color: rgb(195, 194, 194);
+    height: 2px;
+    width: 87%;
+   transition: all .4s;
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    .inputfocus::after {
+        top: 47.5%;
+    }
+}
+
+
+@media only screen and (max-width: 380px) {
+    .inputfocus::after {
+        top: 53%;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .inputfocus::after {
+        top: 56%;
+    }
+}
+
+.inputfocuspass::before {
+    content: "";
+    position: absolute;
+    top: 58.5%;
+    left: 7%;
+    background-color: #fff;
+    height: 2px;
+    width: 0%;
+    transition: all .4s;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .inputfocuspass::before {
+        top: 60.5%;
+    }
+}
+
+
+@media only screen and (max-width: 380px) {
+    .inputfocuspass::before {
+        top: 67.5%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .inputfocuspass::before {
+        top: 71%;
+    }
+}
+
+.inputfocuspass::after {
+    content: "";
+    position: absolute;
+    top: 58.5%;
+    left: 7%;
+    background-color: rgb(195, 194, 194);
+    height: 2px;
+    width: 87%;
+    transition: all .4s;
+    animation-direction: center;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .inputfocuspass::after {
+        top: 60.5%;
+    }
+}
+
+
+@media only screen and (max-width: 380px) {
+    .inputfocuspass::after {
+        top: 67.5%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .inputfocuspass::after {
+        top: 71%;
+    }
+}
+
+.inputemail:focus ~ .inputfocus::after {
+    width: 0%;
+}
+
+.inputemail:focus ~ .inputfocus::before {
+    width: 87%;
+}
+
+
+
+.inputpass:focus ~ .inputfocuspass::after {
+    width: 0%;
+}
+
+.inputpass:focus ~ .inputfocuspass::before {
+    width: 87%;
+}
+
+button:disabled {
+   cursor: not-allowed;
+}
+
+
+
+

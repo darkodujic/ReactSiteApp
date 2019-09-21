@@ -1,0 +1,321 @@
+
+.par {
+  margin-top: 5rem;
+ position: relative;
+  top: -1.2rem;
+  left: 41.5rem;
+  color: #d2ae7e;
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+  font-weight: 600;
+  font-size: .6rem;
+text-align: center;
+}
+
+
+@font-face {
+  font-family: Promesh;
+  src: url(../../../TuesdayNight/Promesh.ttf) format("truetype");
+}
+
+
+
+
+.header2 {
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    margin-top: 4.5rem;
+    position: absolute;
+    right: 36rem;
+    top: -3.5rem;
+letter-spacing: 15px;
+color: blue;
+display: flex;
+flex-direction: column;
+text-align: center;
+font-family: Promesh;
+}
+
+.lav {
+  text-decoration: none;
+  color: rgb(248, 64, 64);
+}
+
+
+@media only screen and (max-width: 1350px) {
+  .header2 {
+    right: 32rem;
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  .header2 {
+    right: 27rem;
+  }
+}
+
+@media only screen and (max-width: 1085px) {
+    .header2 {
+      right: 25rem;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .header2 {
+      right: 23rem;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    .header2 {
+      right: 20rem;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .header2 {
+      right: 21rem;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .header2 {
+      right: 16rem;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .header2 {
+      right: 16rem;
+    }
+  }
+
+  @media only screen and (max-width: 660px) {
+    .header2 {
+      right: 13rem;
+    }
+  }
+
+  
+  @media only screen and (max-width: 625px) {
+    .header2 {
+      right: 12rem;
+    }
+  }
+
+
+  
+  @media only screen and (max-width: 600px) {
+    .header2 {
+      top: -4rem;
+      right: 15rem;
+      font-size: 2.6rem;
+    }
+  }
+
+  
+  @media only screen and (max-width: 550px) {
+    .header2 {
+      right: 12rem;
+    }
+  }
+
+  
+  @media only screen and (max-width: 500px) {
+    .header2 {
+      right: 11rem;
+    }
+  }
+
+  @media only screen and (max-width: 475px) {
+    .header2 {
+      right: 9rem;
+    }
+  }
+
+  
+  @media only screen and (max-width: 420px) {
+    .header2 {
+      right: 7rem;
+    }
+  }
+
+  @media only screen and (max-width: 383px) {
+    .header2 {
+      right: 6rem;
+    }
+  }
+
+  
+  @media only screen and (max-width: 350px) {
+    .header2 {
+      right: 4rem;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .header2 {
+      right: 2rem;
+    }
+  }
+
+
+.header2::before {
+  content: "";
+  position: relative;
+  top: 4.3rem;
+  left: -50.3rem;
+  height: 1px;
+  width: 615%;
+  background-color: #fff;
+
+}
+
+
+
+@media only screen and (max-width: 1350px) {
+  .header2::before {
+    width: 582%;
+  }
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .header2::before {
+    width: 580%;
+  }
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .header2::before {
+ width: 580.5%;
+  }
+}
+
+@media only screen and (max-width: 1086px) {
+  .header2::before {
+    width: 560%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .header2::before {
+ width: 549%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .header2::before {
+ width: 536%;
+  }
+}
+
+@media only screen and (max-width: 848px) {
+  .header2::before {
+ width: 721%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header2::before {
+ width: 625%;
+  }
+}
+
+@media only screen and (max-width: 749px) {
+  .header2::before {
+ width: 700%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header2::before {
+    margin-top: 1rem;
+    width: 600%;
+  }
+}
+
+@media only screen and (max-width: 661px) {
+  .header2::before {
+    width: 585%;
+  }
+}
+
+
+@media only screen and (max-width: 624px) {
+  .header2::before {
+   width: 679.5%;
+  }
+}
+@media only screen and (max-width: 602px) {
+  .header2::before {
+   width: 690%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header2::before {
+ width: 686%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .header2::before {
+ width: 681.2%;
+  }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  .header2::before {
+ width: 666.2%;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .header2::before {
+ width: 555.2%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .header2::before {
+ width: 456.2%;
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+  .header2::before {
+ width: 446.2%;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .header2::before {
+ width: 446.2%;
+  }
+}
+
+@media only screen and (max-width: 384px) {
+  .header2::before {
+ width: 441.2%;
+  }
+}
+
+
+@media only screen and (max-width: 350px) {
+  .header2::before {
+ width: 431.2%;
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  .header2::before {
+ width: 421.2%;
+  }
+}

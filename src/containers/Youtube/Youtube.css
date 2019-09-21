@@ -1,0 +1,220 @@
+
+.Youtube {
+    height: 110vh;
+    background-color: rgba(0, 0, 0, 0.918);
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    margin: 0 -4rem;
+    position: fixed;
+    top: -1rem;
+    z-index: 150000;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .Youtube {
+        height: 103vh;
+    }
+}
+
+
+@font-face {
+    font-family: Para;
+    src: url(../../TuesdayNight/Codedemo1.otf) format('opentype')
+  }
+
+.youtubeNotExisting {
+    position: relative;
+    top: 70%;
+    left: 435%;
+    transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 7rem;
+  text-transform: uppercase;
+  width: 230%;
+  display: flex;
+  flex-direction: column;
+  font-family: Para;
+  letter-spacing: 2px;
+
+  
+}
+
+@media only screen and (max-width: 1100px) {
+    .youtubeNotExisting {
+    
+        left: 370%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .youtubeNotExisting {
+    
+        left: 370%;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .youtubeNotExisting {
+        left: 320%;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .youtubeNotExisting {
+        top: 90%;
+        left: 280%;
+    }
+}
+@media only screen and (max-width: 670px) {
+    .youtubeNotExisting {
+        left: 260%;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    .youtubeNotExisting {
+    top: 110%;
+    left: 240%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .youtubeNotExisting {
+        top: 110%;
+        left: 220%;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .youtubeNotExisting {
+     top: 170%;
+        left: 280%;
+        font-size: 4.8rem;
+        width: 340%;
+    }
+}
+@media only screen and (max-width: 354px) {
+    .youtubeNotExisting {
+    
+        left: 270%;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .youtubeNotExisting {
+    top: 180%;
+
+        left: 255%;
+    }
+}
+
+
+@media only screen and (max-width: 325px) {
+    .youtubeNotExisting {
+    top: 160%;
+        font-size: 4.5rem;
+        left: 258%;
+        line-height: 1.2;
+    }
+}
+
+.youtspan {
+    font-size: 1.2rem;
+    position: relative;
+    left: -20%;
+    display: flex;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: initial;
+    font-weight: 600;
+}
+
+
+
+.icon {
+    color: #fff;
+    position: absolute;
+ margin-top: 2rem;
+ margin-left: 79rem;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+@media only screen and (max-width: 1320px) {
+    .icon {
+        margin-left: 5.5rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .icon {
+        margin-top: 9rem;
+      margin-left: 10rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .icon {
+        margin-top: 12rem
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .icon {
+        font-size: 2.3rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .icon {
+        font-size: 2.5rem;
+        margin-left: 4rem;
+        margin-top: 15rem;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .icon {
+        margin-top: 17rem;
+    }
+}
+
+
+@media only screen and (max-width: 470px) {
+    .icon {
+        font-size: 2.5rem;
+        margin-left: 3rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 395px) {
+    .icon {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+        margin-top: 19rem;
+    }
+}
+
+
+@media only screen and (max-width: 370px) {
+    .icon {
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+}
+
+
+.icon:hover {
+    color: rgb(236, 236, 236);
+}
+
+.icon:active {
+    color: rgb(211, 211, 211);
+}

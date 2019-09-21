@@ -1,0 +1,328 @@
+.moviecomp {
+    grid-gap: 0.6rem;
+    padding: 1rem;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .moviecomp {
+   margin-top: 8rem;
+  }
+}
+
+.movieCompDetail {
+  height: 30rem;
+  display: flex;
+ cursor: pointer;
+ border: 1px solid #7e796a;
+ padding: .5rem;
+   transition: all .8s;
+   opacity: 0.6;
+   background: linear-gradient(
+     to bottom,
+     rgba(0,0,0, 0),
+     rgba(0,0,0, .7)
+   );
+}
+
+@media only screen and (max-width: 360px) {
+  .movieCompDetail {
+  margin-left: -1.5rem;
+  }
+}
+
+@media only screen and (max-width: 328px) {
+  .movieCompDetail {
+  position: relative;
+  right: 1rem;
+  }
+}
+
+@font-face {
+  font-family: Para;
+  src: url(../../TuesdayNight/Codedemo2.otf) format('opentype')
+}
+.heading2 {
+  position: absolute;
+ color: rgb(228, 227, 227);
+  margin-top: 7rem;
+  left: 5rem;
+  z-index: 5000;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+  width: 63%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+opacity: 0;
+transition: all .6s;
+font-family: Para;
+letter-spacing: 3px;
+}
+
+.movieCompDetail:hover .heading2 {
+  opacity: 1;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+  .heading2 {
+  margin-top: 7rem;
+  }
+
+}
+
+@media only screen and (max-width: 1060px) {
+
+  .heading2 {
+    left: 7rem;
+    font-size: 2.7rem;
+  }
+}
+
+
+@media only screen and (max-width: 910px) {
+
+  .heading2 {
+    left: 6rem;
+    
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+  .heading2 {
+    left: 5.5rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+
+  .heading2 {
+    left: 4.5rem;
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (max-width: 672px) {
+
+  .heading2 {
+    left: 7.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .heading2 {
+    left: 4.5rem;
+    font-size: 1.6rem;
+    opacity: 1;
+    margin-top: 31rem;
+  }
+}
+
+@media only screen and (max-width: 582px) {
+
+  .heading2 {
+    left: 7.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 535px) {
+
+  .heading2 {
+    font-size: 1.7rem;
+    left: 7.7rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+
+  .heading2 {
+width: 53%;
+left: 6.7rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .heading2 {
+  margin-top: 31rem;
+ font-size: 1.4rem;
+    left: 6rem;
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+
+  .heading2 {
+left: 3.7rem;
+  }
+}
+
+@media only screen and (max-width: 328px) {
+
+  .heading2 {
+left: 4.7rem;
+  }
+}
+
+
+.heading3 {
+  color: #fff;
+  position: absolute;
+  left: 8.3rem;
+  margin-top: 23rem;
+  text-transform: uppercase;
+opacity: 0;
+text-align: center;
+font-size: 1.7rem;
+transition: all .4s;
+font-family: Para;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .heading3 {
+    left: 7rem;
+    font-size: 1.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 1060px) {
+
+  .heading3 {
+    left: 11rem;
+    font-size: 1.8rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 910px) {
+
+  .heading3 {
+    left: 9rem;
+    
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+  .heading3 {
+    left: 8rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  .heading3 {
+    left: 6rem;
+  }
+}
+@media only screen and (max-width: 672px) {
+
+  .heading3 {
+    left: 14.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .heading3 {
+    left: 6.5rem;
+    font-size: 1.6rem;
+    opacity: 1;
+    margin-top: 38rem;
+  }
+}
+
+@media only screen and (max-width: 582px) {
+
+  .heading3 {
+    left: 15.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 535px) {
+
+  .heading3 {
+    font-size: 1.6rem;
+    left: 13.7rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+
+  .heading3 {
+
+width: 53%;
+left: 6.7rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .heading3 {
+font-size: 1.4rem;
+    left: 6.4rem;
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+
+  .heading3 {
+left: 4.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 328px) {
+
+  .heading3{
+left: 5.3rem;
+  }
+}
+
+.movieCompDetail:hover h3 {
+opacity: 1;
+}
+
+.btn {
+  position: absolute;
+  padding: 5rem;
+  background-color: red;
+}
+
+.rating {
+  background-color: rgba(255, 255, 255, 0.691);
+  padding: .4rem;
+  height: 5%;
+  width: 16%;
+  opacity: 0;
+  transition: all .6s;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .rating {
+    opacity: 1;
+  }
+}
+.number {
+  margin-left: .4rem;
+  font-size: 1.2rem;
+}
+
+.movieCompDetail:hover .rating {
+  opacity: 1;
+}
+
+

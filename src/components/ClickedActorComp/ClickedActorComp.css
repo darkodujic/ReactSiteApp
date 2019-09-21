@@ -1,0 +1,615 @@
+
+
+@media only screen and (max-width: 832px) {
+    .clickedActorComp {
+        height: 50rem;
+    }
+}
+
+.clickedActorImage {
+    width: 18rem;
+    height: 23rem;
+    margin-top: 4rem;
+    display: grid;
+    margin-left: -2rem;
+    position: relative;
+    border-radius: 6px;
+}
+
+
+
+@media only screen and (max-width: 832px) {
+    .clickedActorImage {
+  margin-top: 10rem;
+  margin-left: 12rem;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .clickedActorImage {
+  margin-left: 9rem;
+    }
+}
+
+.clickedActorDetail {
+    position: absolute;
+   left: 5%;
+
+}
+
+@media only screen and (max-width: 510px) {
+    .clickedActorDetail {
+left: -8%;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .clickedActorImage {
+margin-left: 7rem;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .clickedActorImage {
+margin-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 393px) {
+    .clickedActorDetail {
+width: 120%;
+    }
+}
+
+@font-face {
+    font-family: Para;
+    src: url(../../TuesdayNight/Codedemo1.otf) format('opentype')
+  }
+
+.clickedActorheader {
+    width: 87%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: relative;
+
+}
+
+
+@media only screen and (max-width: 1080px) {
+    .clickedActorheader {
+        width: 82%;
+    }
+}
+
+@media only screen and (max-width: 1007px) {
+    .clickedActorheader {
+        width: 77%;
+    }
+}
+
+
+
+@media only screen and (max-width: 997px) {
+    .clickedActorheader {
+        width: 60%;
+    }
+}
+
+
+
+@media only screen and (max-width: 832px) {
+    .clickedActorheader {
+       margin-top: 35rem;
+       margin-left: -12rem;
+       width: 100%;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .clickedActorheader {
+margin-left: -15rem;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .clickedActorheader {
+margin-left: -17rem;
+    }
+}
+.clickedActorheader {
+    position: absolute;
+    left: 21rem;
+    top: -8%;
+}
+
+
+@media only screen and (max-width: 832px) {
+    .clickedActorheader {
+        left: 19rem;
+        width: 90%;
+    }
+}
+
+.clickedPara {
+    width: 105%;
+    margin-left: -1rem;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: initial;
+    margin-top: 2rem;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    font-family: 'Arvo', serif;
+    line-height: 1.4;
+}
+
+@media only screen and (max-width: 1000px) {
+.clickedPara {
+
+    width: 100%;
+
+}
+
+}
+
+.worka {
+    text-decoration: none;
+}
+
+.tmdb {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.05rem;
+    cursor: pointer;
+}
+@media only screen and (max-width: 995px) {
+    .clickedPara {
+        width: 110%;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+    .clickedPara {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .clickedPara {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .clickedPara {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    .clickedPara {
+        width: 100%;
+    }
+}
+
+
+
+.clickedHeader {
+    font-size: 1.7rem;
+    color: #fff;
+    position: relative;
+    top: 4rem;
+font-family: Para;
+letter-spacing: 2px;
+}
+
+
+@media only screen and (max-width: 832px) {
+    .clickedHeader {
+       text-align: center;
+       margin-left: -7rem;
+    }
+}
+
+
+@media only screen and (max-width: 350px) {
+    .clickedHeader {
+       margin-left: -2rem;
+    }
+}
+
+.Detail {
+  margin-left: 20rem;
+  margin-top: -3rem;
+  color: #fff;
+  position: relative;
+}
+
+
+.det {
+    margin-top: -7rem;
+    position: relative;
+    top: 4rem;
+    left: 1rem;
+    font-family: 'Arvo', serif;
+    letter-spacing: 1.1px;
+}
+
+
+
+@media only screen and (max-width: 995px) {
+    .det {
+top: 5rem;
+    }
+}
+
+@media only screen and (max-width: 832px) {
+    .det {
+   left: -13rem;
+   top: 32.5rem;
+  font-size: 1.1rem;
+  width: 120%;
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    .det {
+width: 140%;
+top: 33rem;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .det {
+width: 140%;
+top: 35rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .det {
+width: 140%;
+top: 33rem;
+    }
+}
+
+@media only screen and (max-width: 545px) {
+    .det {
+width: 140%;
+top: 34rem;
+    }
+}
+
+
+@media only screen and (max-width: 522px) {
+    .det {
+top: 35rem;
+    }
+}
+
+
+@media only screen and (max-width: 510px) {
+    .det {
+width: 140%;
+top: 35rem;
+left: -16rem;
+    }
+}
+@media only screen and (max-width: 470px) {
+    .det {
+width: 150%;
+top: 36rem;
+    }
+  }
+
+  @media only screen and (max-width: 440px) {
+    .det {
+width: 153%;
+    }
+  }
+
+
+
+@media only screen and (max-width: 430px) {
+    .det {
+width: 153%;
+top: 37rem;
+font-size: .98rem;
+    }
+  }
+
+  @media only screen and (max-width: 385px) {
+    .det {
+        left: -16rem;
+        font-size: .85rem;
+    }
+  }
+
+  @media only screen and (max-width: 370px) {
+    .det {
+left: -18rem;
+width: 163%;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .det {
+left: -18rem;
+width: 160%;
+font-size: .96rem;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    .det {
+top: 39rem;
+width: 170%;
+    }
+  }
+
+  @media only screen and (max-width: 335px) {
+    .det {
+        top: 38.5rem;
+left: -18rem;
+width: 175%;
+font-size: .9rem;
+
+    }
+  }
+
+  
+  @media only screen and (max-width: 320px) {
+    .det {
+letter-spacing: .5px;
+width: 180%;
+top: 40rem;
+    }
+  }
+  
+  
+.work {
+    position: relative;
+  left: 30rem;
+    top: 10rem;
+text-transform: uppercase;
+}
+
+.seeMore {
+    cursor: pointer;
+    color: rgb(241, 186, 82);
+}
+
+@media only screen and (max-width: 1350px) {
+    .work {
+width: 87%;
+left: 27rem;
+    }
+}
+
+@media only screen and (max-width: 1065px) {
+    .work {
+width: 57%;
+    }
+}
+
+@media only screen and (max-width: 985px) {
+    .work {
+left: 22rem;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .work {
+top: 12rem;
+    }
+}
+
+@media only screen and (max-width: 832px) {
+    .work {
+        top: 42rem;
+left: 19rem;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .work {
+left: 15rem;
+width: 63%;
+    }
+}
+
+@media only screen and (max-width: 636px) {
+    .work {
+left: 11rem;
+width: 69%;
+    }
+}
+@media only screen and (max-width: 455px) {
+    .work {
+left: 11rem;
+width: 70%;
+    }
+}
+
+@media only screen and (max-width: 433px) {
+    .work {
+left: 11rem;
+width: 76%;
+    }
+}
+
+@media only screen and (max-width: 417px) {
+    .work {
+width: 74%;
+left: 9rem;
+    }
+}
+
+
+@media only screen and (max-width: 393px) {
+    .work {
+width: 72%;
+left: 9rem;
+    }
+}
+
+
+  @media only screen and (max-width: 360px) {
+    .work {
+left: 4rem;
+top: 38rem;
+    }
+  }
+
+  
+  @media only screen and (max-width: 320px) {
+    .work {
+right: 38%;
+bottom: -170%;
+    }
+  }
+
+.prevWork {
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: block;
+    font-family: Para;
+    color: #fff;
+    width: 50%;
+}
+
+
+@media only screen and (max-width: 416px) {
+    .prevWork {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+.DetailAns {
+    margin-left: .7rem;
+    width: 100%;
+}
+
+@media only screen and (max-width: 360px) {
+    .det {
+opacity: 0;
+visibility: hidden;
+    }
+  }
+
+.work::after {
+    content: "";
+    position: absolute;
+    top: 140%;
+    left: -.2rem;
+    border-bottom: 2px solid orange;
+    z-index: 3000;
+    height: 2px;
+    width: 11rem;
+}
+
+.footer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 37%;
+    top: 152%;
+    font-family: 'Arvo', serif;
+}
+
+
+@media only screen and (max-width: 1070px) {
+    .footer {
+top: 177%;
+padding: 1rem 0;
+    }
+  }
+
+  
+
+@media only screen and (max-width: 986px) {
+    .footer {
+top: 173%;
+    }
+  }
+
+  @media only screen and (max-width: 832px) {
+    .footer {
+top: 217%;
+left: 30%;
+    }
+  }
+
+  @media only screen and (max-width: 752px) {
+    .footer {
+        left: 27%;
+
+    }
+  }
+
+  @media only screen and (max-width: 711px) {
+    .footer {
+        left: 27%;
+        top: 283%;
+
+    }
+  }
+
+
+  @media only screen and (max-width: 550px) {
+    .footer {
+        left: 23%;
+    }
+  }
+
+
+  @media only screen and (max-width: 450px) {
+    .footer {
+     left: 20%;
+        top: 467%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .footer {
+     left: 14%;
+        
+    }
+  }
+
+  @media only screen and (max-width: 365px) {
+    .footer {
+        top: 460%;
+     left: -8%;
+     width: 107%;
+        
+    }
+  }
+.footering {
+    color: rgb(173, 173, 173);
+}
+
+.card {
+    height: 17rem;
+   cursor: pointer;
+   border: 1px solid #7e796a;
+   padding: .5rem;
+position: relative;
+
+grid-row: 3 / 6;
+
+
+}
+
+
+
+.pag {
+    position: absolute;
+    top: 80%;
+    width: 100%;
+}

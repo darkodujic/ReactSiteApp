@@ -1,0 +1,10 @@
+.node-enter {
+    opacity: 0;
+  }
+  .node-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+  }
+  .node-exit {
+    opacity: 1;
+  }

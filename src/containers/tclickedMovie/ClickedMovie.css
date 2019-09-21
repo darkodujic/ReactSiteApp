@@ -1,0 +1,208 @@
+.clickedMovie {
+    display: grid;
+    background-color: rgb(24, 24, 24);
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1410px) {
+    .clickedMovie {
+        height: 130rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .clickedMovie {
+        height: 185rem;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .clickedMovie {
+        height: 229rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .clickedMovie {
+        height: 231rem;
+    }
+}
+
+
+.clickedMovieNav {
+    position: fixed;
+    background-color: rgb(5, 5, 5);
+    top: 0;
+    left: 0;
+    height: 55rem;
+    margin-left: -3.9rem;
+    width: 9%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(1.15);
+    border-right: 1px solid rgb(46, 46, 46);
+}
+
+@media only screen and (max-width: 1305px) {
+    .clickedMovieNav {
+        width: 9.5%;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .clickedMovieNav {
+        width: 10%;
+    }
+}
+
+
+@media only screen and (max-width: 1040px) {
+    .clickedMovieNav {
+        width: 10.4%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .clickedMovieNav {
+        width: 11%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .clickedMovieNav {
+        width: 11.5%;
+    }
+}
+
+
+@media only screen and (max-width: 840px) {
+    .clickedMovieNav {
+        width: 12.4%;
+    }
+}
+
+@media only screen and (max-width: 785px) {
+    .clickedMovieNav {
+        width: 13.4%;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .clickedMovieNav {
+        width: 14.4%;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .clickedMovieNav {
+        display: flex;
+        height: 4rem;
+        top: 94%;
+        z-index: 150000;
+        left: 14%;
+        width: 88%;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .clickedMovieNav {
+     height: 5rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    .clickedMovieNav {
+     width: 98%;
+    }
+}
+.mare {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-top: 4rem;
+    transition: all .4s;
+    margin-left: 3rem;
+    display: flex;
+
+}
+
+.mare:hover {
+    color: rgb(219, 217, 217);
+}
+
+.cont {
+display: flex;
+flex-direction: column;
+margin-top: 2rem;
+margin-left: .5rem;
+}
+
+
+@media only screen and (max-width: 660px) {
+    .cont {
+ display: flex;
+ flex-direction: row;
+ margin-top: -3rem;
+ margin-right: 4rem;
+ align-items: center;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .cont {
+    margin-top: -3rem;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .mare {
+   padding: 0 1.5rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .mare {
+   padding: 0 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 380px) {
+    .mare {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .mare {
+        height: 20px;
+        width: 20px;
+        padding: 0 .5rem;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .cont {
+    margin-right: 6rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .cont {
+    margin-right: 3rem;
+    }
+}
