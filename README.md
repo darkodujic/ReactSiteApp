@@ -6,8 +6,8 @@
   
   
 # ABOUT PROJECT:
- This React project was made for a easier finding of a movie you are searching for, it contains all the information that you wanted in the first place about the movie.
- Project is based on TMDB database, all information that you see is provided by them!
+ This React project was made for a easier finding of a movie you are searching for, it contains all of the information that you wanted in the first place about the movie.
+ Project is based on TMDB database, all of the information that you see is provided by them!
  
  # TECHNOLOGIES USED:
  
