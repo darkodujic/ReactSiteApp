@@ -1,6 +1,6 @@
 # INSTALATION - RUNNING IT LIVE: 
   There is no need for you to run CREATE REACT APP, after you have downloaded the project, run:
-* NPM INIT
+  
 * NPM INSTALL
 * NPM START - NPM RUN START
   
